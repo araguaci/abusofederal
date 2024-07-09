@@ -3,8 +3,10 @@
 # dependencies
 /node_modules
 /.pnp
+/.history
 .pnp.js
 package-lock.json
+pnpm-lock.yaml
 
 # testing
 /coverage
