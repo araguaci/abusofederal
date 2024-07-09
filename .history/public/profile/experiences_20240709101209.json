@@ -1,0 +1,32 @@
+{
+    "experiences": [
+        {
+            "title": "Adélio ",
+            "subtitle": "Clube de tiro de São José/SC",
+            "workType": "Full-time",
+            "workDescription": [
+                "Adélio esteve no clube de tiro de São José/SC, onde estava previsto Carlos Bolsonaro treinar, mas não compareceu. Quem passou essa informação para Adélio? Quem o financiou? Ele assassinaria o Carlos?"
+            ],
+            "dateText": "5/julho/2018"
+        },
+        {
+            "title": "Software Engineer",
+            "subtitle": "XYZ Ltd",
+            "workType": "Internship",
+            "workDescription": [
+                "Worked on abc."
+            ],
+            "dateText": "01/20XX – 05/20XX"
+        },
+        {
+            "title": "App Developer",
+            "subtitle": "ABC Pvt Ltd",
+            "workType": "Freelance",
+            "workDescription": [
+                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
+                "Done bcd work."
+            ],
+            "dateText": "09/20XX – 01/20YY"
+        }
+    ]
+}

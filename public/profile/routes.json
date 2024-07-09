@@ -1,0 +1,44 @@
+{
+    "sections": [
+        {
+            "component": "About",
+            "path": "/about",
+            "headerTitle": "About"
+        },
+        {
+            "component": "Skills",
+            "path": "/skills",
+            "headerTitle": "Skills"
+        },
+        {
+            "component": "Education",
+            "path": "/education",
+            "headerTitle": "Education"
+        },
+        {
+            "component": "Lobo",
+            "path": "/lobo",
+            "headerTitle": "Lobo Solitário"
+        },
+        {
+            "component": "Censura",
+            "path": "/censura",
+            "headerTitle": "Censura"
+        },
+        {
+            "component": "Experience",
+            "path": "/experience",
+            "headerTitle": "Experience"
+        },
+        {
+            "component": "Interferencia",
+            "path": "/interferencia",
+            "headerTitle": "Interfêrencia"
+        },
+        {
+            "component": "Projects",
+            "path": "/projects",
+            "headerTitle": "Projects"
+        }
+    ]
+}

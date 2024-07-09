@@ -1,0 +1,104 @@
+{
+    "projects" : [
+        {
+            "image" : "https://media.gazetadopovo.com.br/2024/04/19185224/censura-stf-960x540.jpg",
+            "title": "Censura promovida pelo Supremo Tribunal Federal",
+            "bodyText": "Um guia sobre a censura promovida pelo Supremo Tribunal Federal.",
+            "links": [
+                {
+                    "text": "guia-sobre-a-censura",
+                    "href": "https://www.gazetadopovo.com.br/vida-e-cidadania/um-guia-sobre-a-censura-e-a-perseguicao-contra-a-direita-no-judiciario-brasileiro/"
+                }
+            ],
+            "tags" : [
+                "abuso",
+                "censura",
+                "stf",
+                "tse",
+                "judiciario"
+            ]
+        },
+        {
+            "image": "https://media.gazetadopovo.com.br/2024/02/29120111/filipe-martins-ex-assessor-bolsonaro.jpg",
+            "title": "Prisão de Filipe Martins",
+            "bodyText": "Ex-assessor de Bolsonaro está preso por viagem que não existiu; defesa aponta abusos do STF",
+            "links": [
+                {
+                    "text": "assessor-de-bolsonaro-esta-preso",
+                    "href": "https://www.gazetadopovo.com.br/vida-e-cidadania/ex-assessor-de-bolsonaro-esta-preso-por-viagem-que-nao-existiu-defesa-aponta-abusos-do-stf/?ref=link-interno-materia"
+                }
+            ],
+            "tags" : [
+                "abuso",
+                "prisão"
+            ]
+        },
+        {
+            "image": "https://media.gazetadopovo.com.br/2024/04/05121445/twitter-files-6-660x372.jpg",
+            "title": "Twitter Files",
+            "bodyText": "Os _Twitter Files_ são documentos que revelam um amplo esforço de censura na pandemia e nas eleições nos EUA e no Brasil, além de perseguição a conservadores. São arquivos internos do antigo Twitter, hoje X, a que um seleto grupo de jornalistas teve acesso após a aquisição da empresa por Elon Musk.",
+            "links": [
+                {
+                    "text": "twitter-files",
+                    "href": "https://www.gazetadopovo.com.br/tudo-sobre/twitter-files/?ref=link-interno-materia"
+                }
+            ],
+            "tags" : [
+                "twitter-files",
+                "censura",
+                "pandemia",
+                "eleições"
+            ]
+        },
+        {
+            "image": "https://media.gazetadopovo.com.br/2024/04/03175059/TSE-Alexandre-de-Moraes-e-Benedito-960x540.jpg",
+            "title": "Tentativa do TSE de violar Marco Civil",
+            "bodyText": "Documentos inéditos mostram tentativa do TSE de violar Marco Civil contra a direita",
+            "links": [
+                {
+                    "text": "camara-dos-eua-acusa-moraes",
+                    "href": "https://www.gazetadopovo.com.br/mundo/relatorio-da-camara-dos-eua-acusa-moraes-de-censurar-direita-no-x/"
+                }
+            ],
+            "tags" : [
+                "moraes",
+                "censura",
+                "marco civil",
+                "tse"
+            ]
+        },
+        {
+            "image": "https://media.gazetadopovo.com.br/2024/04/17212529/camara.eua_.moraes-960x540.jpg",
+            "title": "Câmara dos EUA acusa Moraes",
+            "bodyText": "Relatório da Câmara dos EUA acusa Moraes de censurar direita no X",
+            "links": [
+                {
+                    "text": "camara-dos-eua-acusa-moraes",
+                    "href": "https://www.gazetadopovo.com.br/mundo/relatorio-da-camara-dos-eua-acusa-moraes-de-censurar-direita-no-x/?ref=link-interno-materia"
+                }
+            ],
+            "tags" : [
+                "camara-dos-eua",
+                "moraes",
+                "censura"
+            ]
+        },
+        {
+            "image": "https://media.gazetadopovo.com.br/2024/03/14162150/toffoli-moraes-960x540.jpg",
+            "title": "Inquérito das Fake News",
+            "bodyText": "O processo iniciiado em 14 de março de 2019 para destruição da liberdade de expressão no Brasil completou cinco anos nesta quinta-feira.",
+            "links": [
+                {
+                    "text": "cinco-anos-excessos",
+                    "href": "https://www.gazetadopovo.com.br/opiniao/editoriais/cinco-anos-excessos-inquerito-fake-news/?ref=link-interno-materia?ref=link-interno-materia"
+                }
+            ],
+            "tags" : [
+                "destruição",
+                "liberdade de expressão",
+                "fake news",
+                "inquérito"
+            ]
+        }
+    ]
+}
