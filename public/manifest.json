@@ -1,15 +1,15 @@
 {
-  "short_name": "Mayank Agarwal",
-  "name": "Mayank Agarwal - Portfolio",
+  "short_name": "Abusos Federais",
+  "name": "Abusos Federais",
   "icons": [
     {
-      "src": "images/logo.png",
-      "type": "image/png",
-      "sizes": "425x225"
+      "src": "images/og-image.jpg",
+      "type": "image/jpg",
+      "sizes": "425x378"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#262626",
+  "background_color": "#262626"
 }
