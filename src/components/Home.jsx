@@ -3,6 +3,8 @@ import { Button } from 'react-bootstrap';
 import { ThemeContext } from 'styled-components';
 import Typewriter from 'typewriter-effect';
 import Fade from 'react-reveal';
+import Social from './Social';
+
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 
@@ -69,6 +71,7 @@ function Home() {
           </Button>
         </div>
       </div>
+      <Social />
     </Fade>
   ) : <FallbackSpinner />;
 }

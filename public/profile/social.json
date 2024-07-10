@@ -1,16 +1,28 @@
 {
     "social": [
         {
+            "network" : "twitter",
+            "href": "https://twitter.com/intent/tweet?url=https://abusofederal.vercel.app/&text=%E2%9C%A0%20Abusos%20Federais%20%E2%9C%A0"
+        },
+        {
+            "network" : "facebook",
+            "href": "https://www.facebook.com/sharer/sharer.php?u=https://abusofederal.vercel.app"
+        },
+        {
+            "network" : "whatsapp",
+            "href": "https://api.whatsapp.com/send?phone=&text=%E2%9C%A0%20Abusos%20Federais%20%E2%9C%A0https://abusofederal.vercel.app/"
+        },
+        {
+            "network" : "telegram",
+            "href": "https://telegram.me/share/url?url=https://abusofederal.vercel.app/&text=%E2%9C%A0%20Abusos%20Federais%20%E2%9C%A0"
+        },        
+        {
             "network" : "linkedin",
-            "href": "https://linkedin.com/"
+            "href": "https://www.linkedin.com/shareArticle?mini=true&url=https://abusofederal.vercel.app/"
         },
         {
-            "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
-        },
-        {
-            "network" : "email",
-            "href": "mailto:test@test.com"
+            "network" : "twitter",
+            "href": "https://twitter.com/intent/tweet?url=https://abusofederal.vercel.app/&text=%E2%9C%A0%20Abusos%20Federais%20%E2%9C%A0"
         }
     ]
 }

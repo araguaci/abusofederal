@@ -7,6 +7,7 @@ import { ThemeContext } from 'styled-components';
 import Fade from 'react-reveal';
 import Header from './Header';
 import Fontes from './Fontes';
+import Social from './Social';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/experience.css';
@@ -104,6 +105,7 @@ function Censura(props) {
         ) : <FallbackSpinner /> }
 
       <Fontes />
+      <Social />
 
     </>
   );
