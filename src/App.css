@@ -9,11 +9,6 @@
   font-size: 1.2em;
 }
 
-.timeline {
-  width: 100%;
-  max-width: 1000px;
-}
-
 .navbar-custom {
   font-size:large;
 }
@@ -161,5 +156,32 @@ ul > div > li {
 }
 
 .timeline {
+  width: 100%;
   margin: 10px auto !important;
+  max-width: 1009px !important;
+}
+
+.entry .title:before { 
+  width: 9px !important;
+  height: 9px !important;
+  border: 8px solid !important;
+  right: -9px !important; 
+}
+
+.entry .title {
+  width: 22% !important;
+}
+
+.entry .body {
+  width: 88% !important;
+  color: #262626;
+}
+
+.timeline:before {
+  left: calc(22% + -4px) !important;
+}
+
+.body-container {
+  margin-top: -44px !important;
+  margin-left: 14% !important;
 }
