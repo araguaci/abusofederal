@@ -6,6 +6,12 @@
   display: flex;
   height: 100vh;
   flex-direction: row;
+  font-size: 1.2em;
+}
+
+.timeline {
+  width: 100%;
+  max-width: 1000px;
 }
 
 .navbar-custom {
@@ -95,7 +101,7 @@ section.timeline-card-content p.card-sub-title {
 }
 
 section.timeline-card-content div.card-description > p {
-  font-size: 1.1em;
+  font-size: 1.4em;
   margin-top: 10px;
   font-weight: 500;
 }
@@ -105,6 +111,9 @@ section.timeline-card-content div.card-description > p {
   margin-top: 60px;
 }
 
+ul > div > li {
+  font-size: 1.2em;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 

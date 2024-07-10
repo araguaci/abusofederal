@@ -1,0 +1,11 @@
+p {
+    margin: 0;
+}
+
+.col:first-child {
+    min-width: 64%;
+}
+
+img {
+    border-radius: 50%
+}

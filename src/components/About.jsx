@@ -6,6 +6,7 @@ import Fade from 'react-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
+import '../css/about.css';
 
 const styles = {
   introTextContainer: {
@@ -17,11 +18,11 @@ const styles = {
     fontWeight: 500,
   },
   introImageContainer: {
-    margin: 10,
+    margin: 5,
     justifyContent: 'center',
     alignItems: 'center',
     display: 'flex',
-    with: '500',
+    with: '250',
   },
 };
 
@@ -57,7 +58,7 @@ function About(props) {
                     {parseIntro(data.about)}
                   </Col>
                   <Col style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" width={505} />
+                    <img src={data?.imageSource} alt="profile" width={350} />
                   </Col>
                 </Row>
               </Fade>

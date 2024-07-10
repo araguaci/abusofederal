@@ -18,7 +18,7 @@
         {
             "component": "Censura",
             "path": "/censura",
-            "headerTitle": "Censura"
+            "headerTitle": "Linha do Tempo da Censura no Brasil"
         },
         {
             "component": "Experience",
