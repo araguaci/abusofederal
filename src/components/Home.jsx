@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import { ThemeContext } from 'styled-components';
 import Typewriter from 'typewriter-effect';
 import Fade from 'react-reveal';
+import { Link } from 'react-router-dom';
 import Social from './Social';
 
 import endpoints from '../constants/endpoints';
@@ -53,6 +54,11 @@ function Home() {
               strings: data?.roles,
             }}
           />
+        </div>
+        <div>
+          <Link to="/censura" className="btn btn-light m-3">
+            Linha do Tempo da Censura no Brasil
+          </Link>
         </div>
         <div>
           <Button
