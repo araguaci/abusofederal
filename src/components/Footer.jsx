@@ -8,31 +8,25 @@ function Footer() {
     <>
       <div className="section-content-container">
         <div>
+          <p>
+            <script
+              async
+              src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+            />
+            &nbsp;|&nbsp;
+            <i className="fa fa-user" aria-hidden="true" />
+            <span id="busuanzi_value_site_uv" />
+            {' '}
+            |
+            <i className="fa fa-eye" aria-hidden="true" />
+            <span id="busuanzi_value_site_pv" />
+          </p>
+        </div>
+        <div>
           <a href="https://www.artesdosul.com" className="img-link">
             <img
               src="https://img.shields.io/endpoint?color=RGBA%2839%2C%20119%2C%20119%2C%201%29&amp;label=artesdosul&amp;url=https%3A%2F%2Fwww.artesdosul.com%2Fapi.php%3Fcallback%3Dweb"
               alt="Website"
-              loading="lazy"
-            />
-          </a>
-          <a href="https://x.com/artesdosul" className="img-link">
-            <img
-              src="https://img.shields.io/badge/X_Org-%40artesdosul-1d9bf0.svg"
-              alt="X Org"
-              loading="lazy"
-            />
-          </a>
-          <a href="https://x.com/araguaci" className="img-link">
-            <img
-              src="https://img.shields.io/badge/X_User-%40araguaci-1d9bf0.svg"
-              alt="X User"
-              loading="lazy"
-            />
-          </a>
-          <a href="https://stop-war-for-ever.vercel.app" className="img-link">
-            <img
-              src="https://img.shields.io/endpoint?color=purple&amp;label=STOP&amp;url=https%3A%2F%2Fwww.artesdosul.com%2Fapi.php%3Fcallback%3Dstop"
-              alt="stop-war-for-ever"
               loading="lazy"
             />
           </a>

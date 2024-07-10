@@ -4,8 +4,8 @@ import { ThemeContext } from 'styled-components';
 import Typewriter from 'typewriter-effect';
 import Fade from 'react-reveal';
 import { Link } from 'react-router-dom';
-import Social from './Social';
 
+import Social from './Social';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 
@@ -64,22 +64,43 @@ function Home() {
           <Button
             style={styles.showMoreStyle}
             variant={theme.bsSecondaryVariant}
-            onClick={() => window.open('https://brasil-pela-liberdade.vercel.app/1000dias/', '_blank')}
+            onClick={() => window.open(
+              'https://brasil-pela-liberdade.vercel.app/1000dias/',
+              '_blank',
+            )}
           >
             ✠ Resultados de 1000 dias de Governo Bolsonaro ✠
           </Button>
           <Button
             style={styles.showMoreStyle}
             variant={theme.bsSecondaryVariant}
-            onClick={() => window.open('https://patria-amada-brasil.vercel.app/blog/tags/impostos/', '_blank')}
+            onClick={() => window.open(
+              'https://patria-amada-brasil.vercel.app/blog/tags/impostos/',
+              '_blank',
+            )}
           >
             ✠ Redução de Impostos no Governo Bolsonaro ✠
           </Button>
         </div>
       </div>
       <Social />
+      <div>
+        <p>
+          <script
+            async
+            src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+          />
+          <i className="fa-solid fa-user" />
+          <span id="busuanzi_value_site_uv" />
+          &nbsp;|&nbsp;
+          <i className="fa-solid fa-eye" />
+          <span id="busuanzi_value_site_pv" />
+        </p>
+      </div>
     </Fade>
-  ) : <FallbackSpinner />;
+  ) : (
+    <FallbackSpinner />
+  );
 }
 
 export default Home;
