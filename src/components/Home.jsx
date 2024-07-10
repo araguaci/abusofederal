@@ -84,19 +84,6 @@ function Home() {
         </div>
       </div>
       <Social />
-      <div>
-        <p>
-          <script
-            async
-            src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
-          />
-          <i className="fa-solid fa-user" />
-          <span id="busuanzi_value_site_uv" />
-          &nbsp;|&nbsp;
-          <i className="fa-solid fa-eye" />
-          <span id="busuanzi_value_site_pv" />
-        </p>
-      </div>
     </Fade>
   ) : (
     <FallbackSpinner />
