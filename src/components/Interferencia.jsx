@@ -25,10 +25,15 @@ const styles = {
     display: 'inline-block',
   },
   itemStyle: {
-    marginBottom: 10,
+    marginBottom: 25,
+  },
+  timelineItem: {
+    marginTop: 10,
+  },
+  buttonItem: {
+    marginTop: 20,
   },
 };
-
 function Interferencia(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
@@ -47,34 +52,37 @@ function Interferencia(props) {
     <>
       <Header title={header} />
 
-      {data
-        ? (
-          <div className="section-content-container">
-            <Container>
-              <Timeline
-                lineColor={theme.timelineLineColor}
-              >
-                {data.map((item) => (
-                  <Fade>
-                    <TimelineItem
-                      key={item.title + item.publishDate}
-                      dateText={item.publishDate}
-                      dateInnerStyle={{ background: theme.accentColor }}
-                      style={styles.itemStyle}
-                      bodyContainerStyle={{ color: theme.color }}
-                    >
-                      <h4 className="item-title">
-                        {item.title}
-                      </h4>
-                      <p>{item.url}</p>
-                      <h3><a href={item.url}>{item.source}</a></h3>
-                    </TimelineItem>
-                  </Fade>
-                ))}
-              </Timeline>
-            </Container>
-          </div>
-        ) : <FallbackSpinner /> }
+      {data ? (
+        <div className="section-content-container">
+          <Container>
+            <Timeline lineColor={theme.timelineLineColor}>
+              {data.map((item) => (
+                <Fade>
+                  <TimelineItem
+                    key={item.title + item.publishDate}
+                    dateText={item.publishDate}
+                    dateInnerStyle={{ background: theme.accentColor }}
+                    style={styles.itemStyle}
+                    bodyContainerStyle={{ color: theme.color }}
+                    className="dateinterferencia"
+                  >
+                    <div className="divinterferencia">
+                      <h2 className="item-title titleseguranca">
+                        <a href={item.url}>{item.source}</a>
+                      </h2>
+                      <div style={styles.subtitleContainerStyle}>
+                        <h4 className="item-title">{item.title}</h4>
+                      </div>
+                    </div>
+                  </TimelineItem>
+                </Fade>
+              ))}
+            </Timeline>
+          </Container>
+        </div>
+      ) : (
+        <FallbackSpinner />
+      )}
     </>
   );
 }

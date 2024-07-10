@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
+import { Button } from 'react-bootstrap';
+import { ThemeContext } from 'styled-components';
 import Typewriter from 'typewriter-effect';
 import Fade from 'react-reveal';
 import endpoints from '../constants/endpoints';
-import Social from './Social';
 import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
@@ -19,9 +20,13 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
   },
+  showMoreStyle: {
+    margin: 25,
+  },
 };
 
 function Home() {
+  const theme = useContext(ThemeContext);
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -38,7 +43,7 @@ function Home() {
       <div style={styles.mainContainer}>
         <h1 style={styles.nameStyle}>{data?.name}</h1>
         <div style={{ flexDirection: 'row' }}>
-          <h2 style={styles.inlineChild}>I&apos;m&nbsp;</h2>
+          <h2 style={styles.inlineChild}>Democracia&nbsp;</h2>
           <Typewriter
             options={{
               loop: true,
@@ -47,7 +52,22 @@ function Home() {
             }}
           />
         </div>
-        <Social />
+        <div>
+          <Button
+            style={styles.showMoreStyle}
+            variant={theme.bsSecondaryVariant}
+            onClick={() => window.open('https://brasil-pela-liberdade.vercel.app/1000dias/', '_blank')}
+          >
+            ✠ Resultados de 1000 dias de Governo Bolsonaro ✠
+          </Button>
+          <Button
+            style={styles.showMoreStyle}
+            variant={theme.bsSecondaryVariant}
+            onClick={() => window.open('https://patria-amada-brasil.vercel.app/blog/tags/impostos/', '_blank')}
+          >
+            ✠ Redução de Impostos no Governo Bolsonaro ✠
+          </Button>
+        </div>
       </div>
     </Fade>
   ) : <FallbackSpinner />;

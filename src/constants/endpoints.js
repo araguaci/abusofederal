@@ -12,6 +12,7 @@ const endpoints = {
   lobo: 'profile/lobo.json',
   fontes: 'profile/fontes.json',
   interferencia: 'profile/interferencia.json',
+  seguranca: 'profile/seguranca.json',
 };
 
 export default endpoints;

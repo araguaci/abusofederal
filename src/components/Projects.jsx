@@ -1,6 +1,5 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { Container, Row, Button } from 'react-bootstrap';
-import { ThemeContext } from 'styled-components';
+import React, { useState, useEffect } from 'react';
+import { Container, Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal/Fade';
 import Header from './Header';
@@ -18,10 +17,9 @@ const styles = {
 };
 
 const Projects = (props) => {
-  const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
-  const [showMore, setShowMore] = useState(false);
+  const [showMore] = useState(false);
 
   useEffect(() => {
     fetch(endpoints.projects, {
@@ -46,17 +44,6 @@ const Projects = (props) => {
                   </Fade>
                 ))}
               </Row>
-
-              {!showMore
-                && (
-                <Button
-                  style={styles.showMoreStyle}
-                  variant={theme.bsSecondaryVariant}
-                  onClick={() => setShowMore(true)}
-                >
-                  show more
-                </Button>
-                )}
             </Container>
           </div>
         ) : <FallbackSpinner /> }

@@ -7,3 +7,28 @@
         margin-top: 10px !important;
     }
 }
+
+.linkUrl {
+    margin-top: 15px; 
+    margin-bottom: 50px;
+    float: left; 
+    z-index: 1000;
+    cursor:pointer;
+}
+
+.titleseguranca {
+    margin: 0px 5px 5px 0px;
+    padding: 0px 5px 10px 0px;
+}
+
+.ulseguranca {
+    margin-bottom: 10px;
+}
+
+.divinterferencia {
+    margin-bottom: 25px;
+}
+
+.timeline-item-dateinner {
+    font-size: 20px !important;
+}

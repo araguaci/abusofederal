@@ -1,11 +1,6 @@
 {
     "sections": [
         {
-            "component": "About",
-            "path": "/about",
-            "headerTitle": "About"
-        },
-        {
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"
@@ -33,12 +28,22 @@
         {
             "component": "Interferencia",
             "path": "/interferencia",
-            "headerTitle": "Interfêrencia"
+            "headerTitle": "Interfêrencia Suprema"
+        },
+        {
+            "component": "Seguranca",
+            "path": "/seguranca",
+            "headerTitle": "Segurança Pública"
         },
         {
             "component": "Projects",
             "path": "/projects",
-            "headerTitle": "Projects"
+            "headerTitle": "Projetos Relacionados"
+        },
+        {
+            "component": "About",
+            "path": "/about",
+            "headerTitle": "Sobre este Projeto"
         }
     ]
 }
