@@ -56,11 +56,11 @@ function Home() {
           />
         </div>
         <div>
-          <Link to="/censura" className="btn btn-light m-5 text-xs">
+          <Link to="/censura" className="btn btn-light m-4 text-xs">
             Linha do Tempo da Censura no Brasil
           </Link>
         </div>
-        <div className="mt-5">
+        <div className="mt-4">
           <Button
             style={styles.showMoreStyle}
             variant={theme.bsSecondaryVariant}
