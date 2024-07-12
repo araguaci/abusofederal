@@ -13,6 +13,7 @@ const endpoints = {
   fontes: 'profile/fontes.json',
   interferencia: 'profile/interferencia.json',
   seguranca: 'profile/seguranca.json',
+  fontesseg: 'profile/fontesseg.json',
 };
 
 export default endpoints;

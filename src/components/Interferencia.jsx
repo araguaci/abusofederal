@@ -68,7 +68,10 @@ function Interferencia(props) {
                   >
                     <div className="divinterferencia">
                       <h2 className="item-title titleseguranca">
-                        <a href={item.url}>{item.source}</a>
+                        <a href={item.url}>
+                          <i className="fa fa-link m-2 text-xs" aria-hidden="true" />
+                          {item.source}
+                        </a>
                       </h2>
                       <div style={styles.subtitleContainerStyle}>
                         <h4 className="item-title">{item.title}</h4>

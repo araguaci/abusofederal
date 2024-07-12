@@ -185,3 +185,9 @@ ul > div > li {
   margin-top: -44px !important;
   margin-left: 14% !important;
 }
+
+html {
+  font-size:  1.1rem;
+}
+
+$bs-body-font-size: 1.1rem;

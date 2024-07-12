@@ -56,6 +56,9 @@ importers:
       react-scripts:
         specifier: ^5.0.1
         version: 5.0.1(@babel/plugin-syntax-flow@7.24.7(@babel/core@7.24.7))(@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.24.7))(@types/babel__core@7.20.5)(eslint@7.32.0)(react@17.0.2)(sass@1.77.6)(type-fest@0.21.3)(typescript@4.9.5)
+      react-scroll-to-top:
+        specifier: ^3.0.0
+        version: 3.0.0(react@17.0.2)
       react-social-icons:
         specifier: ^5.6.1
         version: 5.15.0(react@17.0.2)
@@ -4923,6 +4926,11 @@ packages:
     peerDependenciesMeta:
       typescript:
         optional: true
+
+  react-scroll-to-top@3.0.0:
+    resolution: {integrity: sha512-I/k45Ujai097du59tHBbzGxN7Lyc6K8Uc3IChq6HMXaBfB8N/rrfm055T5Yv0DWfVpf6pOFaBmhD3LOfH5unGw==}
+    peerDependencies:
+      react: ^16.8.0 || 17.x || ^18
 
   react-social-icons@5.15.0:
     resolution: {integrity: sha512-khfDgUiUwEBe34T6br2+mkXQg3hLVDdviVjexxZoVCsogMgxTy/m8+KlX/j6Wa7P2BPxgZ7yZ2jXw3X06pUUFQ==}
@@ -12093,6 +12101,10 @@ snapshots:
       - webpack-cli
       - webpack-hot-middleware
       - webpack-plugin-serve
+
+  react-scroll-to-top@3.0.0(react@17.0.2):
+    dependencies:
+      react: 17.0.2
 
   react-social-icons@5.15.0(react@17.0.2):
     dependencies:

@@ -6,6 +6,8 @@ import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
 import Fade from 'react-reveal';
 import Header from './Header';
+import Social from './Social';
+import Fontesseg from './Fontesseg';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/experience.css';
@@ -101,6 +103,9 @@ function Seguranca(props) {
             </Container>
           </div>
         ) : <FallbackSpinner /> }
+
+      <Fontesseg />
+      <Social />
     </>
   );
 }

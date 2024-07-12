@@ -65,6 +65,7 @@ const ProjectCard = (props) => {
               variant={'outline-' + theme.bsSecondaryVariant}
               onClick={() => window.open(link.href, '_blank')}
             >
+              <i className="fa fa-link m-2" aria-hidden="true" />
               {link.text}
             </Button>
           ))}
@@ -94,10 +95,12 @@ ProjectCard.propTypes = {
     title: PropTypes.string.isRequired,
     bodyText: PropTypes.string.isRequired,
     image: PropTypes.string,
-    links: PropTypes.arrayOf(PropTypes.shape({
-      text: PropTypes.string.isRequired,
-      href: PropTypes.string.isRequired,
-    })),
+    links: PropTypes.arrayOf(
+      PropTypes.shape({
+        text: PropTypes.string.isRequired,
+        href: PropTypes.string.isRequired,
+      }),
+    ),
     tags: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
 };

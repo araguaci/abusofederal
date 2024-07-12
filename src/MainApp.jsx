@@ -1,5 +1,6 @@
 import React, { useState, useEffect, Suspense } from 'react';
 import { Switch, Route } from 'react-router-dom';
+import ScrollToTop from 'react-scroll-to-top';
 import FallbackSpinner from './components/FallbackSpinner';
 import NavBarWithRouter from './components/NavBar';
 import Home from './components/Home';
@@ -19,6 +20,7 @@ function MainApp() {
 
   return (
     <div className="MainApp">
+      <ScrollToTop smooth color="#262626" className="font-extrabold" />
       <NavBarWithRouter />
       <main className="main">
         <Switch>
