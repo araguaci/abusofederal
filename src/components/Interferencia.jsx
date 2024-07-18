@@ -15,8 +15,9 @@ const styles = {
     paddingLeft: 20,
   },
   subtitleContainerStyle: {
-    marginTop: 10,
-    marginBottom: 10,
+    marginTop: 5,
+    marginBottom: 25,
+    textIndent: 25,
   },
   subtitleStyle: {
     display: 'inline-block',
@@ -74,7 +75,7 @@ function Interferencia(props) {
                         </a>
                       </h2>
                       <div style={styles.subtitleContainerStyle}>
-                        <h4 className="item-title">{item.title}</h4>
+                        <h4>{item.title}</h4>
                       </div>
                     </div>
                   </TimelineItem>
@@ -82,6 +83,13 @@ function Interferencia(props) {
               ))}
             </Timeline>
           </Container>
+          <div className="my-5">
+            <img
+              src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fabusofederal.vercel.app%2F&label=deram%20ciencia&countColor=%23263759"
+              alt="visitantes"
+              loading="lazy"
+            />
+          </div>
         </div>
       ) : (
         <FallbackSpinner />

@@ -1,6 +1,42 @@
 {
     "projects" : [
         {
+            "image" : "https://ainvestigacao.com/midia/news/2024-06-28-cicbr-667f0767c6a.png",
+            "title": "Desvendando o Complexo Industrial da Censura no Brasil.",
+            "bodyText": "Máquina de censura atua para atacar e silenciar dissidentes.",
+            "links": [
+                {
+                    "text": "desvendando-o-complexo-industrial-da-censura",
+                    "href": "https://ainvestigacao.com/noticias/investigacao/desvendando-o-complexo-industrial-da-censura-no-brasil/"
+                }
+            ],
+            "tags" : [
+                "abuso",
+                "censura",
+                "Twitter Files Brazil",
+                "judiciario"
+            ]
+        },
+        {
+            "image" : "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05bae28d-8560-4aa3-b9f0-cddd27599421.heic",
+            "title": "FBI, Soros, And Secret Police In Vast Censorship Conspiracy In Brazil.",
+            "bodyText": "Months-long investigation reveals global effort to counter populism in violation of the Latin American nation's constitution.",
+            "links": [
+                {
+                    "text": "fbi-soros-and-secret-police",
+                    "href": "https://www.public.news/p/fbi-soros-and-secret-police-in-vast"
+                }
+            ],
+            "tags" : [
+                "abuso",
+                "censura",
+                "soros",
+                "fbi",
+                "tse",
+                "judiciario"
+            ]
+        },
+        {
             "image" : "https://media.gazetadopovo.com.br/2024/04/19185224/censura-stf-960x540.jpg",
             "title": "Censura promovida pelo Supremo Tribunal Federal",
             "bodyText": "Um guia sobre a censura promovida pelo Supremo Tribunal Federal.",
@@ -19,6 +55,24 @@
             ]
         },
         {
+            "image" : "https://ainvestigacao.com/midia/news/2024-03-02-faz-o-l-65e3b99c7db.png",
+            "title": "´Gabinete do Amor´: o esquadrão para defender Lula e atacar opositores.",
+            "bodyText": "A rede de ativismo emprega as mesmas táticas anteriormente atribuídas ao `Gabinete do Ódio´ bolsonarista, mas opera sem as mesmas consequências.",
+            "links": [
+                {
+                    "text": "esquadrao-para-defesa-de-lula",
+                    "href": "https://ainvestigacao.com/noticias/a-investigacao/gabinete-do-amor-o-esquadrao-para-defesa-de-lula-e-ataque-a-opositores/"
+                }
+            ],
+            "tags" : [
+                "abuso",
+                "ativismo",
+                "esquadrão",
+                "narrativas",
+                "atacar opositores"
+            ]
+        },
+        {
             "image": "https://media.gazetadopovo.com.br/2024/02/29120111/filipe-martins-ex-assessor-bolsonaro.jpg",
             "title": "Prisão de Filipe Martins",
             "bodyText": "Ex-assessor de Bolsonaro está preso por viagem que não existiu; defesa aponta abusos do STF",
@@ -30,7 +84,8 @@
             ],
             "tags" : [
                 "abuso",
-                "prisão"
+                "prisão",
+                "Filipe Martins"
             ]
         },
         {
@@ -146,6 +201,22 @@
                 "desdobramentos",
                 "twitterfiles",
                 "brazil"
+            ]
+        },
+        {
+            "image": "https://media.gazetadopovo.com.br/2023/10/18115157/edineiapaiva-960x540.jpg",
+            "title": "Presa com terço e bíblia no 8/1, faxineira é condenada",
+            "bodyText": "Associação criminosa armada, golpe de Estado, dano qualificado, abolição violenta do Estado Democrático de Direito.",
+            "links": [
+                {
+                    "text": "presa-com-terco-biblia-8-janeiro",
+                    "href": "https://www.gazetadopovo.com.br/vida-e-cidadania/presa-com-terco-biblia-8-janeiro-faxineira-condenada-associacao-criminosa-armada/"
+                }
+            ],
+            "tags" : [
+                "presa",
+                "golpe de Estado",
+                "faxineira é condenada"
             ]
         }
     ]

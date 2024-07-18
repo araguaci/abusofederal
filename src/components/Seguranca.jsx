@@ -105,6 +105,13 @@ function Seguranca(props) {
         ) : <FallbackSpinner /> }
 
       <Fontesseg />
+      <div>
+        <img
+          src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fabusofederal.vercel.app%2F&label=deram%20ciencia&countColor=%23263759"
+          alt="visitantes"
+          loading="lazy"
+        />
+      </div>
       <Social />
     </>
   );

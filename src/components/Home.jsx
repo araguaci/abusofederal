@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { useState, useEffect, useContext } from 'react';
 import { Button } from 'react-bootstrap';
 import { ThemeContext } from 'styled-components';
@@ -59,6 +60,13 @@ function Home() {
           <Link to="/censura" className="btn btn-light m-4 text-xs">
             Linha do Tempo da Censura no Brasil
           </Link>
+        </div>
+        <div>
+          <img
+            src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fabusofederal.vercel.app%2F&label=deram%20ciencia&countColor=%23263759"
+            alt="visitantes"
+            loading="lazy"
+          />
         </div>
         <div className="mt-4">
           <Button
