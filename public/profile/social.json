@@ -2,7 +2,7 @@
     "social": [
         {
             "network" : "twitter",
-            "href": "https://twitter.com/intent/tweet?url=https://abusofederal.vercel.app/&text=Abusos%20Federais%20"
+            "href": "https://x.com/intent/post?text=Abusos%20Federais&url=https%3A%2F%2Fabusofederal.vercel.app%2F"
         },
         {
             "network" : "facebook",
@@ -19,10 +19,6 @@
         {
             "network" : "linkedin",
             "href": "https://www.linkedin.com/shareArticle?text=Abusos%20Federais&mini=true&url=https://abusofederal.vercel.app/"
-        },
-        {
-            "network" : "twitter",
-            "href": "https://x.com/intent/post?text=Abusos%20Federais&url=https%3A%2F%2Fabusofederal.vercel.app%2F"
-        }
+        }        
     ]
 }

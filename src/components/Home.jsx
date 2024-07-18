@@ -61,13 +61,6 @@ function Home() {
             Linha do Tempo da Censura no Brasil
           </Link>
         </div>
-        <div>
-          <img
-            src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fabusofederal.vercel.app%2F&label=deram%20ciencia&countColor=%23263759"
-            alt="visitantes"
-            loading="lazy"
-          />
-        </div>
         <div className="mt-4">
           <Button
             style={styles.showMoreStyle}
@@ -92,6 +85,13 @@ function Home() {
         </div>
       </div>
       <Social />
+      <div className="my-4">
+        <img
+          src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fabusofederal.vercel.app%2F&label=deram%20ciencia&countColor=%23263759"
+          alt="visitantes"
+          loading="lazy"
+        />
+      </div>
     </Fade>
   ) : (
     <FallbackSpinner />
