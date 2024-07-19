@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
 import Fade from 'react-reveal';
 import Header from './Header';
-import Fontes from './Fontes';
+import Fontesimp from './Fontesimp';
 import Social from './Social';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
@@ -32,13 +32,13 @@ const styles = {
   },
 };
 
-function Censura(props) {
+function Imposto(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.censura, {
+    fetch(endpoints.impostos, {
       method: 'GET',
     })
       .then((res) => res.json())
@@ -104,11 +104,11 @@ function Censura(props) {
           </div>
         ) : <FallbackSpinner /> }
 
-      <Fontes />
+      <Fontesimp />
       <Social />
       <div className="my-3">
         <img
-          src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fabusofederal.vercel.app/censura%2F&label=deram%20ciencia&countColor=%23263759"
+          src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fabusofederal.vercel.app/imposto%2F&label=deram%20ciencia&countColor=%23263759"
           alt="visitantes"
           loading="lazy"
           className="mb-3"
@@ -119,8 +119,8 @@ function Censura(props) {
   );
 }
 
-Censura.propTypes = {
+Imposto.propTypes = {
   header: PropTypes.string.isRequired,
 };
 
-export default Censura;
+export default Imposto;

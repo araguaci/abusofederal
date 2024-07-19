@@ -14,6 +14,8 @@ const endpoints = {
   interferencia: 'profile/interferencia.json',
   seguranca: 'profile/seguranca.json',
   fontesseg: 'profile/fontesseg.json',
+  fontesimp: 'profile/fontesimp.json',
+  impostos: 'profile/impostos.json',
 };
 
 export default endpoints;

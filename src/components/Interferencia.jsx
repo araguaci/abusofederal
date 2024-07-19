@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
 import Fade from 'react-reveal';
 import Header from './Header';
+import Social from './Social';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/experience.css';
@@ -83,11 +84,13 @@ function Interferencia(props) {
               ))}
             </Timeline>
           </Container>
-          <div className="my-5">
+          <Social />
+          <div className="my-3">
             <img
-              src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fabusofederal.vercel.app%2F&label=deram%20ciencia&countColor=%23263759"
+              src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fabusofederal.vercel.app/interferencia%2F&label=deram%20ciencia&countColor=%23263759"
               alt="visitantes"
               loading="lazy"
+              className="mb-3"
             />
           </div>
         </div>

@@ -26,6 +26,11 @@
             "headerTitle": "Experience"
         },
         {
+            "component": "Imposto",
+            "path": "/imposto",
+            "headerTitle": "Redução de Impostos 2019-2022"
+        },
+        {
             "component": "Interferencia",
             "path": "/interferencia",
             "headerTitle": "Interfêrencia Suprema"

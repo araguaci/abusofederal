@@ -105,14 +105,15 @@ function Seguranca(props) {
         ) : <FallbackSpinner /> }
 
       <Fontesseg />
-      <div>
+      <Social />
+      <div className="my-3">
         <img
-          src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fabusofederal.vercel.app%2F&label=deram%20ciencia&countColor=%23263759"
+          src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fabusofederal.vercel.app/seguranca%2F&label=deram%20ciencia&countColor=%23263759"
           alt="visitantes"
           loading="lazy"
+          className="mb-3"
         />
       </div>
-      <Social />
     </>
   );
 }

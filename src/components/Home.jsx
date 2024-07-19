@@ -12,7 +12,7 @@ import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   nameStyle: {
-    fontSize: '5em',
+    fontSize: '4em',
   },
   inlineChild: {
     display: 'inline-block',
@@ -45,7 +45,7 @@ function Home() {
   return data ? (
     <Fade>
       <div style={styles.mainContainer}>
-        <h1 style={styles.nameStyle}>{data?.name}</h1>
+        <h3 style={styles.nameStyle}>{data?.name}</h3>
         <div style={{ flexDirection: 'row' }}>
           <h2 style={styles.inlineChild}>Democracia&nbsp;</h2>
           <Typewriter
@@ -57,7 +57,7 @@ function Home() {
           />
         </div>
         <div>
-          <Link to="/censura" className="btn btn-light m-4 text-xs">
+          <Link to="/censura" className="btn btn-light my-4 text-xs">
             Linha do Tempo da Censura no Brasil
           </Link>
         </div>

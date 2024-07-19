@@ -1,0 +1,165 @@
+{
+    "projects" : [
+        {
+            "image" : "https://conteudo.imguol.com.br/c/parceiros/d8/2021/07/17/plano-de-saude-1626523396459_v2_300x225.jpg.webp",
+            "title": "Governo reduz em até 25% imposto de carro, geladeira, lavadora e outros",
+            "bodyText": "O presidente Jair Bolsonaro (PL) editou nesta sexta-feira (25) um decreto que reduz a alíquota do IPI (Imposto sobre Produtos Industrializados).",
+            "links": [
+                {
+                    "text": "ECONOMIA.UOL",
+                    "href": "https://economia.uol.com.br/noticias/redacao/2022/02/25/bolsonaro-assina-reducao-de-ate-25-de-imposto-cobrado-sobre-a-industria.htm#:~:text=Como%20se%20trata%20de%20um%20decreto%20presidencial%2C%20a,e%20R%24%2022%2C5%20bilh%C3%B5es%20no%20ano%20de%202024."
+                }
+            ],
+            "tags" : [
+                "impostos",
+                "redução",
+                "imposto de carro",
+                "geladeira",
+                "lavadora",
+                "IPI"
+            ]
+        },
+        {
+            "image": "https://fenafisco.org.br/wp-content/uploads/2022/08/ministerio-economia-fachada-marcello-casal-jr-abr-3-crop-20220707174049-660x372-1.jpg",
+            "title": "Quais as reduções de imposto promovidas desde o início do governo Bolsonaro",
+            "bodyText": "Uma das estratégias adotadas pela equipe econômica desde o início do governo Jair Bolsonaro para dar mais dinamismo à economia foi a redução de impostos.",
+            "links": [
+                {
+                    "text": "FENAFISCO.ORG",
+                    "href": "https://fenafisco.org.br/01/08/2022/quais-as-reducoes-de-imposto-promovidas-desde-o-inicio-do-governo-bolsonaro/"
+                }
+            ],
+            "tags" : [
+                "reduções de imposto", 
+                "IPI",
+                "ZFM",
+                "Marinha Mercante", 
+                "2021", 
+                "2022",
+                "IOF"
+            ]
+        },
+        {
+            "image": "https://images.jota.info/wp-content/uploads/2022/01/pexels-mikhail-nilov-8297031-1.jpg",
+            "title": "Além de desoneração da folha, último dia de 2021 teve novas regras tributárias",
+            "bodyText": "Entenda as mudanças em impostos que passam a valer neste ano. Empresas de diferentes setores são afetadas",
+            "links": [
+                {
+                    "text": "JOTA",
+                    "href": "https://www.jota.info/tributos/desoneracao-folha-medidas-tributarias-2022-03012022?non-beta=1"
+                }
+            ],
+            "tags" : [
+                "benefícios fiscais",
+                "IRPF",
+                "IPI",
+                "Indústria Química", 
+                "MEI Caminhoneiro"
+            ]
+        },
+        {
+            "image": "https://www.cnnbrasil.com.br/wp-content/uploads/2021/06/2226_DF106010C30C67D0-18.jpg",
+            "title": "Bolsonaro zera impostos federais sobre diesel e gás de cozinha e taxa bancos",
+            "bodyText": "As medidas buscam amenizar a alta dos combustíveis no Brasil, que acompanha as oscilações da taxa de câmbio e das cotações do petróleo no mercado internacional",
+            "links": [
+                {
+                    "text": "CNN BRASIL",
+                    "href": "https://www.cnnbrasil.com.br/economia/macroeconomia/presidente-bolsonaro-reduz-tributacao-de-diesel-e-gas-de-cozinha/"
+                }
+            ],
+            "tags" : [
+                "CSLL",
+                "REIQ",
+                "PIS/COFINS", 
+                "zera impostos federais",
+                "diesel",
+                "gás de cozinha"
+            ]
+        },
+        {
+            "image": "https://oestadoonline.com.br/wp-content/uploads/elementor/thumbs/274548300_1154380005335681_8921226432001640888_n-e1647273680300-plv0n6nqqlhaybecfzz5d7ksfom6327zb55t6sjnuw.jpg",
+            "title": "Bolsonaro divulga todos os itens com impostos reduzidos durante seu governo",
+            "bodyText": "Em 2022, o Governo Federal também zerou o imposto de importação do café, margarina, queijo, macarrão, açúcar, óleo de soja, e também do etanol, para reduzir o preço da gasolina. ",
+            "links": [
+                {
+                    "text": "O ESTADO ONLINE",
+                    "href": "https://oestadoonline.com.br/politica/bolsonaro-divulga-todos-os-itens-com-impostos-reduzidos-durante-seu-governo/"
+                }
+            ],
+            "tags" : [
+                "etanol",
+                "café",
+                "margarina",
+                "queijo",
+                "macarrão",
+                "açúcar",
+                "zerou o imposto"
+            ]
+        },
+        {
+            "image": "https://www.gov.br/turismo/pt-br/assuntos/noticias/governo-federal-zera-imposto-de-importacao-sobre-jet-skis-baloes-e-dirigiveis/03-03-2022-reducao-de-imposto-jet-skis.png/@@images/c8712651-d855-4ac4-a636-04f9904428ce.png",
+            "title": "Governo Federal zera imposto de importação sobre jet-skis, balões e dirigíveis",
+            "bodyText": "Portaria publicada nesta quarta-feira (02.03) impulsionará o Turismo Náutico no país",
+            "links": [
+                {
+                    "text": "Ministério do Turismo",
+                    "href": "https://www.gov.br/turismo/pt-br/assuntos/noticias/governo-federal-zera-imposto-de-importacao-sobre-jet-skis-baloes-e-dirigiveis"
+                }
+            ],
+            "tags" : [
+                "Turismo",
+                "redução do Imposto", 
+                "jet-skis", 
+                "balões", 
+                "dirigíveis"
+            ]
+        },
+        {
+            "image": "https://www.gov.br/economia/++theme++padrao_govbr/img/govbr-logo-large.png",
+            "title": "Saiba mais sobre a redução do Imposto sobre Produtos Industrializados – IPI",
+            "bodyText": "Confira o perguntas e respostas sobre os principais pontos desta medida, editada em 29 de abril com a publicação do Decreto nº 11.055/2022",
+            "links": [
+                {
+                    "text": "Ministério da Economia",
+                    "href": "https://www.gov.br/economia/pt-br/assuntos/noticias/2022/maio/saiba-mais-sobre-a-reducao-do-imposto-sobre-produtos-industrializados-2013-ipi"
+                }
+            ],
+            "tags" : [
+                "IPI",
+                "redução do Imposto"
+            ]
+        },
+        {
+            "image": "https://www.gov.br/economia/++theme++padrao_govbr/img/govbr-logo-large.png",
+            "title": "Tesouro comprova recuperação do resultado primário do país",
+            "bodyText": "Resultado primário do Governo Central encerrou 2021 com déficit de R$ 35,073 bilhões, representando retração de 95,5% em termos reais em relação ao resultado negativo de R$ 743,255 bilhões registrado no ano anterior",
+            "links": [
+                {
+                    "text": "Ministério da Economia",
+                    "href": "https://www.gov.br/economia/pt-br/acesso-a-informacao/acoes-e-programas/principais-acoes-na-area-economica/acoes-2022/tesouro-comprova-recuperacao-do-resultado-primario-do-pais"
+                }
+            ],
+            "tags" : [
+                "tesouro",
+                "recuperação", 
+                "resultado primário"
+            ]
+        },
+        {
+            "image": "https://www.gov.br/economia/++theme++padrao_govbr/img/govbr-logo-large.png",
+            "title": "Governo Central encerra 2021 com déficit primário de R$ 35 bilhões",
+            "bodyText": "É melhor resultado anual desde 2013 e representa queda de 95,5% em relação ao déficit de 2020",
+            "links": [
+                {
+                    "text": "CONTAS PÚBLICAS",
+                    "href": "https://www.gov.br/economia/pt-br/assuntos/noticias/2022/janeiro/governo-central-encerra-2021-com-deficit-primario-de-r-35-bilhoes"
+                }
+            ],
+            "tags" : [
+                "resultado primário",
+                "recuperação", 
+                "receitas e despesas"
+            ]
+        }
+    ]
+}
