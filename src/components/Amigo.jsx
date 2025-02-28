@@ -1,12 +1,11 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
-import { Container } from 'react-bootstrap';
+import { Container, Col } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
-import styled, { ThemeContext } from 'styled-components';
+import { ThemeContext } from 'styled-components';
 import Header from './Header';
 import Social from './Social';
-import Fontesseg from './Fontesseg';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/experience.css';
@@ -31,23 +30,13 @@ const styles = {
   },
 };
 
-const ExternalNavLink = styled.a`
-  color: ${(props) => props.theme.navbarTheme.linkColor};
-  &:hover {
-    color: ${(props) => props.theme.navbarTheme.linkHoverColor};
-  }
-  &::after {
-    background-color: ${(props) => props.theme.accentColor};
-  }
-`;
-
-function Seguranca(props) {
+function Amigo(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.seguranca, {
+    fetch(endpoints.amigo, {
       method: 'GET',
     })
       .then((res) => res.json())
@@ -74,22 +63,18 @@ function Seguranca(props) {
                     style={styles.itemStyle}
                     bodyContainerStyle={{ color: theme.color }}
                   >
-                    <h2 className="item-title titleseguranca">
+                    <h2 className="item-title">
                       {item.title}
                     </h2>
                     <div style={styles.subtitleContainerStyle}>
-                      <h4 style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
-                        {item.subtitle}
-                      </h4>
-                      {item.workType && (
-                      <h5 style={styles.inlineChild}>
-                  &nbsp;·
-                        {' '}
-                        {item.workType}
-                      </h5>
-                      )}
+                      <p style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
+                        <a href={item.workType}>
+                          <i className="fa fa-link m-2 text-xs" aria-hidden="true" />
+                          {item.subtitle}
+                        </a>
+                      </p>
                     </div>
-                    <ul style={styles.ulStyle} className="ulseguranca">
+                    <ul style={styles.ulStyle}>
                       {item.workDescription.map((point) => (
                         <div key={point}>
                           <li>
@@ -104,41 +89,31 @@ function Seguranca(props) {
                         </div>
                       ))}
                     </ul>
-                    {item.linkUrl && (
-                      <ExternalNavLink
-                        key={item.linkUrl}
-                        href={item.linkUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn btn-outline-dark buttonColor mb-4"
-                      >
-                        <i className="fa fa-link m-2" aria-hidden="true" />
-                        {item.linkText}
-                      </ExternalNavLink>
-                    )}
                   </TimelineItem>
                 ))}
               </Timeline>
             </Container>
           </div>
         ) : <FallbackSpinner /> }
-
-      <Fontesseg />
+      <Col style={styles.introImageContainer}>
+        <img src="https://morteademocracia.com/portaria-69-682x1024.jpeg" alt="profile" width={880} />
+      </Col>
       <Social />
       <div className="my-3">
         <img
-          src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fabusofederal.vercel.app/seguranca%2F&label=deram%20ciencia&countColor=%23263759"
+          src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fabusofederal.vercel.app/censura%2F&label=deram%20ciencia&countColor=%23263759"
           alt="visitantes"
           loading="lazy"
           className="mb-3"
         />
       </div>
+
     </>
   );
 }
 
-Seguranca.propTypes = {
+Amigo.propTypes = {
   header: PropTypes.string.isRequired,
 };
 
-export default Seguranca;
+export default Amigo;

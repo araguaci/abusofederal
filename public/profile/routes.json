@@ -21,6 +21,11 @@
             "headerTitle": "Linha do Tempo da Censura no Brasil"
         },
         {
+            "component": "Amigo",
+            "path": "/amigo",
+            "headerTitle": "O Amigo do Amigo do meu Pai"
+        },
+        {
             "component": "Experience",
             "path": "/experience",
             "headerTitle": "Experience"
@@ -38,7 +43,7 @@
         {
             "component": "Seguranca",
             "path": "/seguranca",
-            "headerTitle": "Segurança Pública"
+            "headerTitle": "In-Segurança Pública"
         },
         {
             "component": "Projects",

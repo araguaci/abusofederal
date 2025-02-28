@@ -1,5 +1,37 @@
 {
-    "experiences":[
+    "experiences":[        
+        {
+            "title": "Ministros do STJ concedem 18 mil habeas corpus em 2024",
+            "subtitle": "Ministros do STJ",
+            "workType": "Tráfico de Drogas",
+            "workDescription": [
+                "Ministros do STJ concedem 18 mil habeas corpus em 2024; metade envolve crime de tráfico de drogas.",
+                "Números indicam a falta de alinhamento dos tribunais inferiores com o posicionamento consolidado da Corte, gerando insegurança jurídica; Tribunal de Justiça de São Paulo registra maior descumprimento de precedentes do STJ; procuradas, Cortes não se manifestaram"
+            ],
+            "linkUrl": "https://www.estadao.com.br/politica/ministros-do-stj-concedem-18-mil-habeas-corpus-em-2024-metade-envolve-crime-de-trafico-de-drogas/",
+            "dateText": "Dezembro 2024"
+        },
+        {
+            "title": "Soltura de 15 condenados pela Justiça acusados de integrar a quadrilha que chefia o tráfico de drogas",
+            "subtitle": "Edson Fachin",
+            "workType": "Operação Sumidouro",
+            "workDescription": [
+                "STF manda soltar 15 integrantes de quadrilha que opera tráfico de drogas em galerias de Campinas. Beneficiados por Habeas Corpus haviam sido presos e condenados no âmbito da Operação Sumidouro."
+            ],
+            "linkUrl": "https://g1.globo.com/sp/campinas-regiao/noticia/2024/11/19/stf-manda-soltar-15-integrantes-de-quadrilha-que-opera-trafico-de-drogas-em-galerias-de-campinas.ghtml",
+            "dateText": "Novembro 2024"
+        },
+        {
+            "title": "Crime organizado cresce no Rio após decisão do STF sobre covid-19",
+            "subtitle": "Edson Fachin",
+            "workType": "Comando Vermelho",
+            "workDescription": [
+                "Depois de uma decisão do Supremo Tribunal Federal (STF) que restringiu a atuação policial em favelas do Rio de Janeiro durante a pandemia de covid-19, organizações criminosas - em especial o Comando Vermelho - expandiram o seu domínio sobre o estado. ",
+                "A conclusão consta de relatório entregue na nessa quarta-feira (10) pelo Conselho Nacional de Justiça (CNJ) ao ministro Edson Fachin, do STF, relator da ação de descumprimento de preceito fundamental 635, apelidada de ADPF das Favelas, em que foi tomada a decisão que restringiu a atuação policial no Rio."
+            ],
+            "linkUrl": "https://agenciabrasil.ebc.com.br/justica/noticia/2024-04/crime-organizado-cresce-no-rio-apos-decisao-do-stf-sobre-covid-19",
+            "dateText": "Abril 2024"
+        },
         {
             "title": "Elvis Riola de Andrade",
             "subtitle": "Luís Roberto Barroso",
@@ -8,7 +40,7 @@
                 "Fechando a lista está Elvis Riola de Andrade, também conhecido como Cantor, ex-diretor da escola de samba Gaviões da Fiel. Ele chegou a ser capturado na Bolívia e devolvido ao Brasil em janeiro deste ano. No entanto, ele foi liberado no dia seguinte porque não havia mandado de prisão contra ele no Brasil, conforme decisão do Superior Tribunal de Justiça (STJ). Em São Paulo, ele cumpriu pena por assassinar, a mando da cúpula do PCC, um agente penitenciário em Presidente Bernardes, no interior paulista, em 2009."
             ],
             "dateText": "Janeiro 2024"
-        },        
+        },
         {
             "title": "Em sete anos, justiça libera mais de 30 bandidos do PCC",
             "subtitle": "Diário do Poder",
@@ -59,6 +91,18 @@
                 "Decisão: Concluiu a pena para a qual havia sido condenado — 15 anos e 10 meses de detenção, posteriormente reduzida por bom comportamento. Um ano antes, havia sido absolvido pela justiça de São Paulo, por falta de provas, das acusações de associação ao PCC e lavagem de dinheiro."
             ],
             "dateText": "Fevereiro 2022"
+        },
+        {
+            "title": "Marco Aurélio mandou soltar quase 80 presos usando mesmo critério do caso André do Rap",
+            "subtitle": "Artigo 316 do Código de Processo Penal",
+            "workType": "Marco Aurélio",
+            "workDescription": [
+                "Decisões apontam falta de revisão das prisões preventivas; regra vale desde janeiro, como trecho do pacote anticrime. Fux suspendeu decisão sobre André do Rap, que agora está foragido.",
+                "Entre os outros habeas corpus concedidos por Marco Aurélio, estão pedidos de presos e condenados por crimes diversos – a maioria, por tráfico de drogas e organização criminosa.",
+                "Há também acusados de homicídio qualificado, tentativa de feminicídio, corrupção ativa e outros crimes de menor potencial, como furto e receptação."
+            ],
+            "linkUrl": "https://g1.globo.com/politica/noticia/2020/10/13/marco-aurelio-mandou-soltar-quase-80-presos-usando-o-mesmo-criterio-do-caso-andre-do-rap.ghtml",
+            "dateText": "Outubro 2020"
         },
         {
             "title": "André Oliveira Macedo",
@@ -143,6 +187,42 @@
                 "A decisão foi revogada dias depois, mas o suspeitou tornou-se foragido. Em 2018 ele foi encontrado na zona leste de São Paulo, morto em uma guerra interna do PCC."
             ],
             "dateText": "Maio 2017"
+        },
+        {
+            "title": "Odemir Francisco dos Santos, o Branco",
+            "subtitle": "Marco Aurélio Mello",
+            "workType": "lavava dinheiro para PCC",
+            "workDescription": [
+                "O habeas corpus do ministro Marco Aurélio Mello a favor do réu foi concedido no fim de agosto —portanto, não tem ligação com a decisão do STF contra a execução das penas antes do trânsito julgado, em 7 de novembro.", 
+                "Em decisão monocrática proferida no fim de agosto, o ministro do STF (Supremo Tribunal Federal) Marco Aurélio Mello determinou a liberdade de um integrante do segundo escalão na cúpula do PCC (Primeiro Comando da Capital). Odemir Francisco dos Santos, 39, conhecido como Branco, foi beneficiado com habeas corpus liminar."
+            ],
+            "dateText": "Janeiro de 2013",
+            "linkUrl": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2019/09/17/ministro-do-stf-concede-habeas-corpus-e-lider-do-pcc-e-libertado-de-prisao.htm",
+            "linkText": "Ministro Do Stf Concede Habeas Corpus E Lider Do Pcc"
+        },
+        {
+            "title": "STF anula todos os atos da Lava Jato",
+            "subtitle": "Dias Toffoli",
+            "workType": "Marcelo Odebrecht",
+            "workDescription": [
+                "Decisão de Dias Toffoli mantém acordo de delação, mas invalida provas e procedimentos da 13ª Vara Federal de Curitiba.", 
+                "O ministro do Supremo Tribunal Federal (STF), Dias Toffoli, anulou todos os atos da Operação Lava Jato contra o executivo Marcelo Odebrecht. A decisão, proferida nesta terça-feira, 21, afirma que houve “conluio processual” entre o ex-juiz Sérgio Moro e a força-tarefa de Curitiba e conclui que os direitos do empresário foram violados nas investigações e ações penais."
+            ],
+            "dateText": "Maio de 2024",
+            "linkUrl": "https://agenciabrasil.ebc.com.br/justica/noticia/2019-03/lava-jato-completa-cinco-anos-com-155-pessoas-condenadas",
+            "linkText": "STF anula todos os atos da Lava Jato"
+        },
+        {
+            "title": "O triunfo dos bandidos",
+            "subtitle": "Silvio Navarro",
+            "workType": "Opinião Revista Oeste Edição 66",
+            "workDescription": [
+                "Com os presos da Lava Jato fora da cadeia e a aprovação na Câmara da Lei da Impunidade, o Brasil recua 20 casas na luta contra a corrupção.", 
+                "Há seis anos, quando a Operação Lava Jato estava a todo o vapor no país, o ex-gerente da Petrobras Pedro Barusco surpreendeu o então juiz Sergio Moro e os brasileiros ao propor a devolução — como quem fosse efetuar uma transferência bancária de R$ 100 — de US$ 100 milhões surrupiados da estatal em troca de um acordo para não passar uma década na cadeia."
+            ],
+            "dateText": "Junho de 2021",
+            "linkUrl": "https://agenciabrasil.ebc.com.br/justica/noticia/2019-03/lava-jato-completa-cinco-anos-com-155-pessoas-condenadas",
+            "linkText": "STF anula todos os atos da Lava Jato"
         }
     ]
 }

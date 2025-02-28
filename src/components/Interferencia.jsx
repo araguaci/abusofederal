@@ -3,7 +3,6 @@ import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import { Container } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
-import Fade from 'react-reveal';
 import Header from './Header';
 import Social from './Social';
 import endpoints from '../constants/endpoints';
@@ -59,28 +58,26 @@ function Interferencia(props) {
           <Container>
             <Timeline lineColor={theme.timelineLineColor}>
               {data.map((item) => (
-                <Fade>
-                  <TimelineItem
-                    key={item.title + item.publishDate}
-                    dateText={item.publishDate}
-                    dateInnerStyle={{ background: theme.accentColor }}
-                    style={styles.itemStyle}
-                    bodyContainerStyle={{ color: theme.color }}
-                    className="dateinterferencia"
-                  >
-                    <div className="divinterferencia">
-                      <h2 className="item-title titleseguranca">
-                        <a href={item.url}>
-                          <i className="fa fa-link m-2 text-xs" aria-hidden="true" />
-                          {item.source}
-                        </a>
-                      </h2>
-                      <div style={styles.subtitleContainerStyle}>
-                        <h4>{item.title}</h4>
-                      </div>
+                <TimelineItem
+                  key={item.title + item.publishDate}
+                  dateText={item.publishDate}
+                  dateInnerStyle={{ background: theme.accentColor }}
+                  style={styles.itemStyle}
+                  bodyContainerStyle={{ color: theme.color }}
+                  className="dateinterferencia"
+                >
+                  <div className="divinterferencia">
+                    <h2 className="item-title titleseguranca">
+                      <a href={item.url}>
+                        <i className="fa fa-link m-2 text-xs" aria-hidden="true" />
+                        {item.source}
+                      </a>
+                    </h2>
+                    <div style={styles.subtitleContainerStyle}>
+                      <h4>{item.title}</h4>
                     </div>
-                  </TimelineItem>
-                </Fade>
+                  </div>
+                </TimelineItem>
               ))}
             </Timeline>
           </Container>

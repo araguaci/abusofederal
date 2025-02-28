@@ -9,6 +9,7 @@ const endpoints = {
   experiences: 'profile/experiences.json',
   projects: 'profile/projects.json',
   censura: 'profile/censura.json',
+  amigo: 'profile/amigo.json',
   lobo: 'profile/lobo.json',
   fontes: 'profile/fontes.json',
   interferencia: 'profile/interferencia.json',

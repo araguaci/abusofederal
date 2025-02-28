@@ -1,0 +1,104 @@
+{
+    "experiences": [        
+        {
+            "title": "O amigo do amigo de meu pai",
+            "subtitle": "Revista Crusoé ",
+            "workType": "https://crusoe.com.br/edicoes/50/o-amigo-do-amigo-de-meu-pai/",
+            "workDescription": [
+                "O amigo do amigo de meu pai”: Em documento a que Crusoé teve acesso, o empreiteiro Marcelo Odebrecht revela à Lava Jato o codinome usado para se referir a Dias Toffoli na empreiteira."
+            ],
+            "dateText": "11 Abril 2019"
+        },
+        {
+            "title": "Decisão do STF fere liberdade de imprensa e abre grave precedente",
+            "subtitle": "Transparência Internacional Brasil",
+            "workType": "https://transparenciainternacional.org.br/posts/decisao-do-stf-fere-liberdade-de-imprensa-e-abre-grave-precedente/",
+            "workDescription": [
+                "Decisão do STF que exige a retirada do ar de uma reportagem fere a liberdade de imprensa e afeta a imagem internacional do Brasil."
+            ],
+            "dateText": "15 Abril 2019"
+        },
+        {
+            "title": "Parlamentares Censurados",
+            "subtitle": "Revista Crusoé",
+            "workType": "https://crusoe.com.br/diario/urgente-ministro-do-stf-censura-crusoe/",
+            "workDescription": [
+                "Desde o fim da manhã desta segunda-feira, 15, Crusoé está sob censura, por ordem do ministro Alexandre de Moraes, do Supremo Tribunal Federal. Passava pouco das 11 horas da manhã quando um oficial de Justiça a serviço da corte bateu à porta da redação para entregar cópia da decisão. Alexandre de Moraes determina que Crusoé..."
+            ],
+            "dateText": "15 Abril 2019"
+        },
+        {
+            "title": "A obscena portaria 69",
+            "subtitle": "Jurista Modesto Carvalhosa ",
+            "workType": "https://www.facebook.com/modestocarvalhosa/posts/2255654848084810/",
+            "workDescription": [
+                "A obscena portaria 69, com base na qual, a pretexto de defender sua alegada honorabilidade, Toffoli instaurou uma nefasta inquisição conduzida por Alexandre de Moraes em face de todo o País, não pode prevalecer sobre direitos fundamentais como o da liberdade de expressão. "
+            ],
+            "dateText": "17 Abril 2019"
+        },
+        {
+            "title": "Documentos inéditos mostram tentativa do TSE de violar Marco Civil contra a direita",
+            "subtitle": " Gazeta do Povo ",
+            "workType": "https://www.gazetadopovo.com.br/ideias/documentos-mostram-que-tse-tentou-violar-marco-civil-contra-a-direta/",
+            "workDescription": [
+                "Documentos inéditos mostram tentativa do TSE de violar Marco Civil contra a direita."
+            ],
+            "dateText": "04 Abril 2022"
+        },
+        {
+            "title": "To Defend Democracy, Is Brazil’s Top Court Going Too Far?",
+            "subtitle": "The New York Times ",
+            "workType": "https://www.nytimes.com/2022/09/26/world/americas/bolsonaro-brazil-supreme-court.html",
+            "workDescription": [
+                "In 2019, a few months after Mr. Bolsonaro took office, a one-page document vastly expanded the Supreme Court’s authority. (…) In the process, according to experts in law and government, the court has taken its own repressive turn."
+            ],
+            "dateText": "26 Setembro 2022"
+        },
+        {
+            "title": "Quem é Dias Toffoli e quem o indicou ao STF",
+            "subtitle": "Valor Economico",
+            "workType": "https://valor.globo.com/politica/noticia/2023/09/06/quem-e-dias-toffoli-e-quem-o-indicou-ao-stf.ghtml",
+            "workDescription": [
+                "Antes de chegar ao Supremo, Toffoli ocupou posições importantes no entorno de Lula. Ele atuou como assessor jurídico da vitoriosa campanha de 2002, a primeira vencida pelo petista. No primeiro mandato de Lula, foi designado para o posto de subchefe para Assuntos Jurídicos da Casa Civil, que à época era comandada por José Dirceu. Antes disso, nos anos 90, já havia sido assessor jurídico da liderança do PT na Câmara dos Deputados e consultor da Central Única dos Trabalhadores (CUT), ligada ao PT."
+            ],
+            "dateText": "06 Setembro 2023"
+        },
+        {
+            "title": "Toffoli anula todos os atos da Lava Jato contra Marcelo Odebrecht",
+            "subtitle": "InfoMoney ",
+            "workType": "https://www.infomoney.com.br/politica/toffoli-anula-todos-os-atos-da-lava-jato-contra-marcelo-odebrecht-diz-jornal/",
+            "workDescription": [
+                "Segundo o ministro do STF, procuradores da Lava Jato ignoraram o devido processo legal, o contraditório, a ampla defesa e a própria institucionalidade para garantir seus objetivos."
+            ],
+            "dateText": "21 Março 2024"
+        },
+        {
+            "title": "Marcelo Odebrecht falou sobre R$ 300 milhões dados ao PT em depoimento anulado por Toffoli",
+            "subtitle": "Gazeta do Povo",
+            "workType": "https://www.gazetadopovo.com.br/republica/toffoli-anula-depoimento-sobre-r-300-milhoes-para-o-pt/",
+            "workDescription": [
+                "Marcelo Odebrecht falou sobre R$ 300 milhões dados ao PT em depoimento anulado por Toffoli."
+            ],
+            "dateText": "25 Março 2024" 
+        },
+        {
+            "title": "Toffoli anula provas da Odebrecht contra ex-marqueteiro do PT",
+            "subtitle": "Gazeta do Povo",
+            "workType": "https://www.gazetadopovo.com.br/republica/toffoli-anula-depoimento-sobre-r-300-milhoes-para-o-pt/",
+            "workDescription": [
+                "Toffoli anulou o uso de provas obtidas com acordo de leniência da Odebrecht em três ações penais contra João Santana e Mônica Moura.",
+                "O ministro do Supremo Tribunal Federal (STF) Dias Toffoli anulou o uso de provas do acordo de leniência da Odebrecht (atual Novonor) em três ações penais contra o marqueteiro João Santana e a mulher dele, a empresária Mônica Moura."
+            ],
+            "dateText": "16 Junho 2024" 
+        },
+        {
+            "title": "Toffoli diz que anulou atos da Lava Jato “com muita tristeza”",
+            "subtitle": "Gazeta do Povo",
+            "workType": "https://www.gazetadopovo.com.br/republica/toffoli-anula-depoimento-sobre-r-300-milhoes-para-o-pt/",
+            "workDescription": [
+                "O ministro do Supremo Tribunal Federal (STF) Dias Toffoli defendeu suas decisões monocráticas que anularam provas obtidas pela Lava Jato e beneficiaram alvos da operação. Ele disse que as decisões foram concedidas com “muita tristeza”, porque o “Estado andou errado”."
+            ],
+            "dateText": "16 Outubro 2024" 
+        }
+    ]
+}

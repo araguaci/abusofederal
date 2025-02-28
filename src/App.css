@@ -189,3 +189,12 @@ ul > div > li {
 html {
   font-size:  1.2rem;
 }
+
+.buttonColor {
+  color: #121212 !important;
+  z-index: 10000;
+} 
+
+.buttonColor:hover {
+  color: rgb(204, 204, 204) !important;
+}
