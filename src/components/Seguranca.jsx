@@ -28,7 +28,7 @@ const styles = {
   },
   itemStyle: {
     marginBottom: 10,
-  }
+  },
 };
 
 const ExternalNavLink = styled.a`
