@@ -9,7 +9,8 @@
                 "Números indicam a falta de alinhamento dos tribunais inferiores com o posicionamento consolidado da Corte, gerando insegurança jurídica; Tribunal de Justiça de São Paulo registra maior descumprimento de precedentes do STJ; procuradas, Cortes não se manifestaram"
             ],
             "linkUrl": "https://www.estadao.com.br/politica/ministros-do-stj-concedem-18-mil-habeas-corpus-em-2024-metade-envolve-crime-de-trafico-de-drogas/",
-            "dateText": "Dezembro 2024"
+            "dateText": "Dezembro 2024",
+            "linkText": "estadao"
         },
         {
             "title": "Soltura de 15 condenados pela Justiça acusados de integrar a quadrilha que chefia o tráfico de drogas",
@@ -19,7 +20,8 @@
                 "STF manda soltar 15 integrantes de quadrilha que opera tráfico de drogas em galerias de Campinas. Beneficiados por Habeas Corpus haviam sido presos e condenados no âmbito da Operação Sumidouro."
             ],
             "linkUrl": "https://g1.globo.com/sp/campinas-regiao/noticia/2024/11/19/stf-manda-soltar-15-integrantes-de-quadrilha-que-opera-trafico-de-drogas-em-galerias-de-campinas.ghtml",
-            "dateText": "Novembro 2024"
+            "dateText": "Novembro 2024",
+            "linkText": "g1.globo"
         },
         {
             "title": "Crime organizado cresce no Rio após decisão do STF sobre covid-19",
@@ -30,7 +32,8 @@
                 "A conclusão consta de relatório entregue na nessa quarta-feira (10) pelo Conselho Nacional de Justiça (CNJ) ao ministro Edson Fachin, do STF, relator da ação de descumprimento de preceito fundamental 635, apelidada de ADPF das Favelas, em que foi tomada a decisão que restringiu a atuação policial no Rio."
             ],
             "linkUrl": "https://agenciabrasil.ebc.com.br/justica/noticia/2024-04/crime-organizado-cresce-no-rio-apos-decisao-do-stf-sobre-covid-19",
-            "dateText": "Abril 2024"
+            "dateText": "Abril 2024",
+            "linkText": "agenciabrasil"
         },
         {
             "title": "Elvis Riola de Andrade",
@@ -102,7 +105,8 @@
                 "Há também acusados de homicídio qualificado, tentativa de feminicídio, corrupção ativa e outros crimes de menor potencial, como furto e receptação."
             ],
             "linkUrl": "https://g1.globo.com/politica/noticia/2020/10/13/marco-aurelio-mandou-soltar-quase-80-presos-usando-o-mesmo-criterio-do-caso-andre-do-rap.ghtml",
-            "dateText": "Outubro 2020"
+            "dateText": "Outubro 2020",
+            "linkText": "g1.globo"
         },
         {
             "title": "André Oliveira Macedo",
@@ -198,7 +202,8 @@
             ],
             "dateText": "Janeiro de 2013",
             "linkUrl": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2019/09/17/ministro-do-stf-concede-habeas-corpus-e-lider-do-pcc-e-libertado-de-prisao.htm",
-            "linkText": "Ministro Do Stf Concede Habeas Corpus E Lider Do Pcc"
+            "linkText": "Ministro Do Stf Concede Habeas Corpus E Lider Do Pcc",
+            "linkText": "noticias.uol"
         },
         {
             "title": "STF anula todos os atos da Lava Jato",
@@ -210,7 +215,8 @@
             ],
             "dateText": "Maio de 2024",
             "linkUrl": "https://agenciabrasil.ebc.com.br/justica/noticia/2019-03/lava-jato-completa-cinco-anos-com-155-pessoas-condenadas",
-            "linkText": "STF anula todos os atos da Lava Jato"
+            "linkText": "STF anula todos os atos da Lava Jato",
+            "linkText": "agenciabrasil.ebc"
         },
         {
             "title": "O triunfo dos bandidos",
@@ -222,7 +228,8 @@
             ],
             "dateText": "Junho de 2021",
             "linkUrl": "https://agenciabrasil.ebc.com.br/justica/noticia/2019-03/lava-jato-completa-cinco-anos-com-155-pessoas-condenadas",
-            "linkText": "STF anula todos os atos da Lava Jato"
+            "linkText": "STF anula todos os atos da Lava Jato",
+            "linkText": "agenciabrasil.ebc"
         }
     ]
 }
