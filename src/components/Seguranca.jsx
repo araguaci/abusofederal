@@ -112,7 +112,8 @@ function Seguranca(props) {
                         rel="noopener noreferrer"
                         className="btn buttonColor mb-4 linkUrl"
                       >
-                        <i className="fa fa-link m-2" aria-hidden="true" /> `fonte... `
+                        <i className="fa fa-link m-2" aria-hidden="true" />
+                        ...
                         {item.linkText}
                       </ExternalNavLink>
                     )}
