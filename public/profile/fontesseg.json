@@ -1,6 +1,24 @@
 {
     "projects" : [
         {
+            "image" : "https://www.estadao.com.br/resizer/v2/W2DCLAIGURGTDIIA2ITBWAYHAA.jpg?quality=80&auth=b7a0d79bde7c0ee806f8429de2f4c04c26481bbf888baf1d85d669b741f3ca10&width=1200",
+            "title": "Ministros do STJ concedem 18 mil habeas corpus em 2024",
+            "bodyText": "Números indicam a falta de alinhamento dos tribunais inferiores com o posicionamento consolidado da Corte, gerando insegurança jurídica; Tribunal de Justiça de São Paulo registra maior descumprimento de precedentes do STJ; procuradas, Cortes não se manifestaram.",
+            "links": [
+                {
+                    "text": "ESTADAO",
+                    "href": "https://www.estadao.com.br/politica/ministros-do-stj-concedem-18-mil-habeas-corpus-em-2024-metade-envolve-crime-de-trafico-de-drogas"
+                }
+            ],
+            "tags" : [
+                "judiciario",
+                "criminosos",
+                "stj",
+                "PCC",
+                "porta da frente"
+            ]
+        },
+        {
             "image" : "https://uploads.diariodopoder.com.br/2023/01/c8e3588e-marcola.jpg",
             "title": "Em sete anos, justiça libera mais de 30 bandidos do PCC",
             "bodyText": "Mais de 30 criminosos importantes do PCC deixaram presídios pela porta da frente.",

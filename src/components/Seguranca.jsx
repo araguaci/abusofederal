@@ -110,9 +110,9 @@ function Seguranca(props) {
                         href={item.linkUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn btn-outline-dark buttonColor mb-4"
+                        className="btn buttonColor mb-4"
                       >
-                        <i className="fa fa-link m-2" aria-hidden="true" />
+                        <i className="fa fa-link m-2" aria-hidden="true" /> fonte... 
                         {item.linkText}
                       </ExternalNavLink>
                     )}
